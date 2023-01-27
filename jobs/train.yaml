@@ -15,14 +15,14 @@ parameters:
     datums:
       workspace:
         data:
-          name: 'user1:ins-nc-cicd'
+          name: 'user1:inc-nc-cicd'
           version: ''
         script: python insurance/training.py
       datasets:
-        - name: 'user1:ins-nc-cicd'
+        - name: 'user1:ins-nc-cicd-data'
           mountpath: 
       outputs:
-        - name: 'user1:ins-nc-cicd'
+        - name: 'user1:ins-nc-cicd-model'
           mountpath: 
     featuresets: {}
     tags: []
